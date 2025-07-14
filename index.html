@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/styles.css">
+
+        <title>Portfolio</title>
+         <link rel="icon" href="packages/images/profile2.png" />
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Shivam Prasad Shaw</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Projects
+                            </a>
+                        </li>
+                          <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i>Services
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>Contact                               
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/shivam-shaw-a9288a272/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="" target="_blank" class="home__social-icon">
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+                            <a href="https://www.github.com/shivamwebsite" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x="" xlink:href="packages/images/profile.jpg"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'am Shivam</h1>
+                            <h3 class="home__subtitle">Software Engineer</h3>
+                            <p class="home__description">Experienced in full-stack development, with a strong focus on problem-solving, system design, and continuous learning.</p>
+                            <a href="#contact" class="button button--flex home__button">
+                                Contact Me<i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll Down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My Introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="packages/images/profile3.jpg" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">
+                           I am Shivam, an undergraduate student pursuing a Bachelor's of Technology in Computer Science and Engineering from Narula Institute of Technology, Kolkata. I am dedicated to perfecting and sharpening my skills in coding and continuously enhancing my computer science journey. I love tackling difficult challenges and learning from them.
+                        </p>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">0+</span>
+                                <span class="about__info-name">Years <br> experience</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">08+</span>
+                                <span class="about__info-name">Completed <br> certifications</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">01</span>
+                                <span class="about__info-name">companies<br>worked</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" href="packages/pdf/Shivam_Resume.docx" class="button button--flex">
+                                Download CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">My technical skills</span>
+
+                <div class="skills__container container containerproj grid">
+                        <!-- Projects Section -->
+                        <section id="projects skills" >
+                        <!--for the heading section-->
+                        <div class="projects-content" >
+                            <!-- Frontend Projects -->
+                            <h3 class="section__title">MERN Stack Projects</h3>
+                            <div id="frontend-projects-grid" class="project-grid scroll-text">
+                            <!-- Projects will be dynamically loaded here by JavaScript -->
+                            </div>
+
+                            <!-- ML Projects -->
+                            <h3 class="section__title">ML Projects</h3>
+                            <div id="ml-projects-grid" class="project-grid scroll-text">
+                            <!-- Projects will be dynamically loaded here by JavaScript -->
+                            </div>
+                        </div>
+                        </section>
+                </div>
+            </section>
+
+              <!--==================== QUALIFICATION ====================-->
+        <section class="qualification__section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My personal journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div class="qualification__content qualification__active" data-content id="education">
+             <!--==================== QUALIFICATION 1 ====================--> 
+             <div class="qualification__data">
+                 <div>
+                     <h3 class="qualification__title">ICSE Board</h3>
+                     <span class="qualification__subtitle">Rose Bud School , Liluah Howrah.</span>
+                     <span class="qualification__subtitle">Computer Science</span>
+                     <div class="qualification__calendar">
+                        <i class="uil uil-calendar-alt"></i>
+                        2019 - 2020
+                     </div>
+                 </div>
+
+                 <div>
+                     <span class="qualification__rounder"></span>
+                     <span class="qualification__line"></span>
+                 </div>
+             </div>
+             
+             <!--==================== QUALIFICATION 2 ====================--> 
+             <div class="qualification__data">
+                <div></div>
+                <div>
+                   <span class="qualification__rounder"></span>
+                   <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                    <h3 class="qualification__title">ISC Board</h3>
+                    <span class="qualification__subtitle">St.Denis School, Belur Howrah.</span>
+                     <span class="qualification__subtitle">Computer Science</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2020 - 2021
+                    </div>
+                </div>
+            </div> 
+
+            <!--==================== QUALIFICATION 3 ====================--> 
+            <div class="qualification__data">
+                <div>
+                    <h3 class="qualification__title">BTech CSE</h3>
+                    <span class="qualification__subtitle">Narula Institute of Technology, Agarpara.</span>
+                    <div class="qualification__calendar">
+                       <i class="uil uil-calendar-alt"></i>
+                       2022 - 2026
+                    </div>
+                </div>
+
+                <div>
+                    <span class="qualification__rounder"></span>
+                </div>
+            </div> 
+
+            </div>
+            
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div class="qualification__content" data-content id="work">
+                <!--==================== QUALIFICATION 1 ====================--> 
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">IOT Traning</h3>
+                        <span class="qualification__subtitle">Ardent Computeptech Pvt. Ltd.  </span>
+                        <div class="qualification__calendar">
+                           <i class="uil uil-calendar-alt"></i>
+                           Feb 5,2024 - Feb 10,2024
+                        </div>
+                    </div>
+   
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                </div>
+                
+                <!--==================== QUALIFICATION 2 ====================--> 
+                <div class="qualification__data">
+                   <div></div>
+                   <div>
+                      <span class="qualification__rounder"></span>
+                      <span class="qualification__line"></span>
+                   </div>
+   
+                   <div>
+                       <h3 class="qualification__title">MongoDB Database Training</h3>
+                       <span class="qualification__subtitle">Ardent Computech Pvt. Ltd</span>
+                       <div class="qualification__calendar">
+                          <i class="uil uil-calendar-alt"></i>
+                          Feb 4,2025 - Feb 12,2025
+                       </div>
+                   </div>
+               </div> 
+   
+               <!--==================== QUALIFICATION 3 ====================--> 
+               <div class="qualification__data">
+                   <div>
+                       <h3 class="qualification__title">Machine Learning Internship</h3>
+                       <span class="qualification__subtitle">UNIFIED MENTOR</span>
+                       <div class="qualification__calendar">
+                          <i class="uil uil-calendar-alt"></i>
+                          Jun 15,2025 - Jul 15,2025
+                       </div>
+                   </div>
+   
+                   <div>
+                       <span class="qualification__rounder"></span>
+                       <!-- <span class="qualification__line"></span> -->
+                   </div>
+               </div> 
+          
+               </div> 
+             
+               </div>
+            </div>
+        </section>
+      
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What I offer</span>
+
+            <div class="services__container container grid">
+        <!--==================== SERVICES 1 ====================-->  
+        <div class="services__content">
+            <div>
+                <i class="uil uil-analytics skills__icon"></i>
+                <h3 class="services__title">Machine Learning<br></h3>
+            </div>
+            <span class="button button--flex button--small button--link services__button">
+                View more
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <h4 class="services__modal-title">Machine Learning <br></h4>
+                    <i class="uil uil-times services__modal-close"></i>
+
+                    <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Scikit-learn – Traditional ML (regression, classification, clustering)</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Google Colab – Free cloud GPU for ML notebooks</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>🔍 Data Processing with Pandas"</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+        
+        <!--==================== SERVICES 3 ====================-->
+        <div class="services__content">
+            <div>
+                <i class="uil uil-arrow services__icon"></i>
+                <h3 class="services__title">Web Developer<br></h3>
+            </div>
+            <span class="button button--flex button--small button--link services__button">
+                View more
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+                <div class="services__modal-content">
+                    <h4 class="services__modal-title">Web  Developer<br></h4>
+                    <i class="uil uil-times services__modal-close"></i>
+
+                    <ul class="services__modal-services grid">
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>I develop the user interface.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>Webpage development.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>I create Ux element interactions.</p>
+                        </li>
+
+                        <li class="services__modal-service">
+                            <i class="uil uil-check-circle services__modal-icon"></i>
+                            <p>MERN Stack developer.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+  
+       
+        </div>
+
+
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contatc__subtitle">(+91) 9903119703</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <span class="contatc__subtitle">shivamshaw878@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contatc__subtitle">Kolkata,West Bengal</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">E-mail</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Subject</label>
+                        <input type="text" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Description</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send message
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Shivam Prasad Shaw</h1>
+                    <span class="footer__subtitle">Software Engineer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/0605shivam/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; shivam. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    
+    <script>
+        const projects = [
+        {
+          name: "Fitness - Gym Website",
+          description:
+            "A responsive gym website built using the MERN stack (MongoDB, Express.js, React.js, Node.js).It features user authentication (signup/login), a feedback/contact form, and core gym pages.",
+          github: "https://github.com/shivamwebsite/gym-website",
+          live_link: "https://gym-website-eta-smoky.vercel.app/",
+          type: "frontend",
+        },
+        {
+          name: "Kritanj2K25 - Collage Fest Website",
+          description:
+            "Welcome to the official Kritanj 2025 website!This project was built for our college's annual fest to showcase events, manage registrations, and provide real-time updates — all in a modern and responsive design.",
+          github:
+            "https://github.com/shivamwebsite/Kritanj2025",
+          live_link: "https://kritanj2025.vercel.app/",
+          type: "frontend",
+        },
+        {
+          name: "Amazon-Clone",
+          description:
+            "A full-stack e-commerce platform built with the MERN stack.Features include user authentication, product browsing (dynamically loaded from backend), cart management, and checkout workflow.",
+          github: "https://github.com/shivamwebsite/amazon_clone",
+          live_link: "https://amazon-clone-nine-blush.vercel.app/",
+          type: "frontend",
+        },
+        {
+          name: "Food Delivery Frontend website",
+          description:
+            "A full-stack e-commerce platform built with the MERN stack.Features include user authentication, product browsing (dynamically loaded from backend), cart management, and checkout workflow.",
+          github: "https://github.com/shivamwebsite/shivamfood",
+          live_link: "https://shivamwebsite.github.io/shivamfood/",
+          type: "frontend",
+        },
+        {
+          name: "Employee Management System",
+          description:
+            "A full-stack Employee Management System built with the MERN stack (MongoDB, Express.js, React.js, Node.js), featuring role-based authentication for Admin and Employee users. This software enables efficient HR operations like managing departments, employee records, and leave tracking.",
+          github: "https://github.com/shivamwebsite/EMS",
+          live_link: "#",
+          type: "frontend",
+        },
+        {
+          name: "Todo-List Frontend",
+          description:
+            "A sleek, fully responsive ToDo List application built using Vite + React + Tailwind CSS. Manage your daily tasks efficiently with local storage support.",
+          github: "https://github.com/shivamwebsite/Todo-List",
+          live_link: "https://www.linkedin.com/posts/shivam-shaw-a9288a272_todolist-i-am-pleased-to-present-a-task-activity-7300082650453577728-MR86?utm_source=share&utm_medium=member_android&rcm=ACoAAEKxkY4BHUKw7WO7MmBrm7oYFy5o8-LY1HI",
+          type: "frontend",
+        },
+        {
+          name: "Heart Disease Prediction",
+          description:
+            "A machine learning project that predicts the presence of heart disease using Logistic Regression. The project is built and executed entirely on Google Colab using Python, pandas, and scikit-learn.",
+          github: "https://github.com/shivamwebsite/Heart-Disease-prediction",
+          type: "ml",
+        },
+        {
+          name: "Forest Cover Prediction",
+          description:
+            "A machine learning project that predicts forest cover types based on cartographic variables using different ML models like Logistic Regression, Decision Tree, and Random Forest.",
+          github: "https://github.com/shivamwebsite/Forest-Cover_Predictions",
+          type: "ml",
+        }
+      ];
+
+      function renderProjects() {
+        const frontendGrid = document.getElementById("frontend-projects-grid");
+        const mlGrid = document.getElementById("ml-projects-grid");
+
+        // Clear existing content
+        frontendGrid.innerHTML = "";
+        mlGrid.innerHTML = "";
+
+        projects.forEach((project) => {
+          let projectButtons = "";
+          if (project.type === "frontend" && project.live_link) {
+            // Two buttons for frontend projects
+            projectButtons = `
+                        <div class="project-links-container">
+                            <a href="${project.live_link}" target="_blank" rel="noopener noreferrer" class="project-link-btn white">
+                                <svg class="w-5 h-5 rot mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                                Live Link
+                            </a>
+                            <a href="${project.github}" target="_blank" rel="noopener noreferrer" class="project-link-btn themed">
+                                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.799 8.205 11.385.6.11.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.043-1.61-4.043-1.61-.546-1.387-1.334-1.756-1.334-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.838 1.238 1.838 1.238 1.07 1.835 2.809 1.305 3.49.998.108-.775.419-1.305.762-1.605-2.665-.3-5.464-1.332-5.464-5.93 0-1.31.465-2.382 1.235-3.22-.12-.3-.534-1.524.117-3.176 0 0 1-.322 3.3-.123 1.02-.283 2.1-.425 3.19-.43s2.17.147 3.19.43c2.297-.2 3.3.123 3.3.123.65 1.652.23 2.876.12 3.176.77.838 1.235 1.91 1.235 3.22 0 4.61-2.8 5.625-5.475 5.92.43.37.81 1.096.81 2.22 0 1.606-.015 2.89-.015 3.286 0 .32.21.69.825.57C20.565 21.796 24 17.302 24 12c0-6.627-5.373-12-12-12z" clip-rule="evenodd"></path></svg>
+                                GitHub Link
+                            </a>
+                        </div>
+                    `;
+          } else {
+            // Only GitHub button for ML projects
+            projectButtons = `
+                        <div class="project-links-container">
+                            <a href="${project.github}" target="_blank" rel="noopener noreferrer" class="project-link-btn themed">
+                                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.799 8.205 11.385.6.11.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.043-1.61-4.043-1.61-.546-1.387-1.334-1.756-1.334-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.838 1.238 1.838 1.238 1.07 1.835 2.809 1.305 3.49.998.108-.775.419-1.305.762-1.605-2.665-.3-5.464-1.332-5.464-5.93 0-1.31.465-2.382 1.235-3.22-.12-.3-.534-1.524.117-3.176 0 0 1-.322 3.3-.123 1.02-.283 2.1-.425 3.19-.43s2.17.147 3.19.43c2.297-.2 3.3.123 3.3.123.65 1.652.23 2.876.12 3.176.77.838 1.235 1.91 1.235 3.22 0 4.61-2.8 5.625-5.475 5.92.43.37.81 1.096.81 2.22 0 1.606-.015 2.89-.015 3.286 0 .32.21.69.825.57C20.565 21.796 24 17.302 24 12c0-6.627-5.373-12-12-12z" clip-rule="evenodd"></path></svg>
+                                GitHub Link
+                            </a>
+                        </div>
+                    `;
+          }
+
+          const projectCard = `
+                    <div class="project-card glowing-border">
+                        <h4>${project.name}</h4>
+                        <p>${project.description}</p>
+                        ${projectButtons}
+                    </div>
+                `;
+          if (project.type === "frontend") {
+            frontendGrid.innerHTML += projectCard;
+          } else if (project.type === "ml") {
+            mlGrid.innerHTML += projectCard;
+          }
+        });
+      }
+
+      // Call renderProjects when the DOM is fully loaded
+      document.addEventListener("DOMContentLoaded", renderProjects);
+    </script>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="./packages/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./packages/js/main.js"></script>
+</body>
+
+</html>
