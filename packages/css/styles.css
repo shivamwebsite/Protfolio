@@ -1292,25 +1292,26 @@ max-width: 1200px;
 }
 
 .project-link-btn.white {
-  background-color: #ffffff;
+  background: linear-gradient(to right,#c2e59c,#64b3f4);
   color: #1a1a1a;
-  border: 1px solid #ffffff;
+/*   border: 1px solid #ffffff; */
 }
 
 .project-link-btn.white:hover {
   background-color: #f0f0f0;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  .arrow{
+    transform: rotate(45deg) translateX(6px) translateY(-9px);
+    transition: 0.5s ease-in-out;
+  }
 }
 
 .project-link-btn.themed {
   background: linear-gradient(
     to right,
-    #7c1ba6,
-    #8a22f2,
-    #7c1ed9,
-    #a62461,
-    #d95b7d
+    #fc00ff,
+    #00dbde
   );
   background-size: 400% 100%; /* Make background 4 times wider for a smooth multi-color shift */
   background-position: 0% 0%; /* Start position */
@@ -1339,12 +1340,8 @@ max-width: 1200px;
   width: 200%;
   height: 200%;
   background: conic-gradient(
-    from 0deg,
-    transparent 0%,
-    transparent 45%,
-    #8a22f2 50%,
-    transparent 55%,
-    transparent 100%
+    transparent,transparent,transparent,
+    #8a22f2,#00cfff
   );
   animation: rotateBorder 4s linear infinite;
   z-index: -1;
@@ -1354,11 +1351,11 @@ max-width: 1200px;
 .glowing-border::after {
   content: "";
   position: absolute;
-  top: 2px;
-  left: 2px;
-  right: 2px;
-  bottom: 2px;
-  background: #0a0b0b;
+   top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 3px;
+  background: linear-gradient(#7f8c8d,#34495e,#2c3e50) ;
   border-radius: 0.5rem;
   z-index: -1;
 }
