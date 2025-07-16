@@ -1259,6 +1259,10 @@ max-width: 1200px;
 .project-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 15px 30px#040404cc;
+    .arrow{
+    transform: rotate(45deg) translateX(6px) translateY(-9px);
+    transition: 0.5s ease-in-out;
+  }
 }
 
 .project-card h4 {
@@ -1301,10 +1305,7 @@ max-width: 1200px;
   background-color: #f0f0f0;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  .arrow{
-    transform: rotate(45deg) translateX(6px) translateY(-9px);
-    transition: 0.5s ease-in-out;
-  }
+
 }
 
 .project-link-btn.themed {
